@@ -17,9 +17,13 @@
   - 休憩戻
 - 誰の打刻管理をするのか
   - ログイン画面
-  - ## スマホ画面は？
 
-## 参考
+# 工夫
+
+- モバイルファースト
+-
+
+# 参考
 
 - https://ics.media/entry/200406/
 - https://dotinstall.com/questions/gle3ms7

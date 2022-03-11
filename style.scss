@@ -1,10 +1,12 @@
-$main-color: #b6dfff;
-$black: #333;
-$bg-color: #eaf3ff;
+$primary-color: #2864f0;
+$secondary-colorA: #f7f5f5;
+$secondary-colorB: #e9e7e7;
+$black: #5a5a5a;
 
 body {
-  background-color: $bg-color;
+  background-color: $secondary-colorB;
   color: $black;
+  box-sizing: border-box;
 }
 
 .time {
@@ -30,7 +32,8 @@ body {
     margin-bottom: 1em;
     outline: none;
     border: none;
-    background-color: $main-color;
+    background-color: $black;
+    color: white;
     font-size: 20px;
     transition: 0.3s;
     cursor: pointer;
@@ -45,7 +48,7 @@ body {
     }
 
     &.target {
-      background-color: #333;
+      background-color: $primary-color;
       color: white;
     }
   }

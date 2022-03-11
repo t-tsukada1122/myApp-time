@@ -1,6 +1,8 @@
 body {
-  background-color: #eaf3ff;
-  color: #333;
+  background-color: #e9e7e7;
+  color: #5a5a5a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .time {
@@ -36,7 +38,8 @@ body {
   margin-bottom: 1em;
   outline: none;
   border: none;
-  background-color: #b6dfff;
+  background-color: #5a5a5a;
+  color: white;
   font-size: 20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -53,7 +56,7 @@ body {
 }
 
 .btns button.target {
-  background-color: #333;
+  background-color: #2864f0;
   color: white;
 }
 
