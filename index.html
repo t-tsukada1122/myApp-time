@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link  href="https://unpkg.com/sanitize.css"  rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>勤怠管理アプリ</title>
+</head>
+<body>
+    <main>
+        <div class="time">
+            <p id="RealtimeClock" class="realtime-clock"></p>
+            <p id="timer" class="timer">00:00:00</p>
+            <div class="btns">
+                <button id="attendance">出勤</button>
+                <button id="leaving" disabled>退勤</button>
+                <button id="rest" disabled>休入</button>
+                <button id="back" disabled>休戻</button>
+            </div>
+        </div>
+    </main>
+    
+    <script src="time.js"></script>
+</body>
+</html>

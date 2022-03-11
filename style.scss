@@ -1,0 +1,50 @@
+$main-color: #b6dfff;
+$black: #333;
+$bg-color: #eaf3ff;
+
+body {
+  background-color: $bg-color;
+  color: $black;
+}
+
+.time {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  .realtime-clock {
+    font-size: 68px;
+  }
+  .timer {
+    font-size: 30px;
+  }
+
+  .btns {
+    button {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      background-color: $main-color;
+      font-size: 20px;
+      transition: 0.3s;
+      cursor: pointer;
+      box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+        0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+        0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+        0 101px 74px rgba(0, 0, 0, 0.13);
+
+      &:active {
+        box-shadow: none;
+        transform: translateY(1.9px);
+      }
+
+      &.target {
+        background-color: #333;
+        color: white;
+      }
+    }
+  }
+}
