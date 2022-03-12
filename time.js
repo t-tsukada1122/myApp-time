@@ -48,7 +48,6 @@ let timeoutId;
 let elapsedTime = 0;
 
 function countUp() {
-
 const nowTime = new Date(Date.now() - startTime + elapsedTime);
 const Hour = String(nowTime.getUTCHours()).padStart(2, '0');
 const Min  = String(nowTime.getMinutes()).padStart(2, '0');
@@ -87,7 +86,6 @@ buttonHover();
 restBtn.addEventListener('click', () => {
 clearTimeout(timeoutId);
 elapsedTime += Date.now() - startTime;
-attendanceBtn.disabled = true;
 leavingBtn.disabled = true;
 restBtn.disabled = true;
 backBtn.disabled = false;

@@ -2,6 +2,7 @@ $primary-color: #2864f0;
 $secondary-colorA: #f7f5f5;
 $secondary-colorB: #e9e7e7;
 $black: #5a5a5a;
+$hover-color: #00b9b9;
 
 body {
   background-color: $secondary-colorB;
@@ -16,9 +17,11 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .realtime-clock {
   font-size: 50px;
 }
+
 .timer {
   font-size: 30px;
 }
@@ -29,10 +32,10 @@ body {
   button {
     width: 100%;
     height: 70px;
-    margin-bottom: 1em;
+    margin-bottom: 1.1em;
     outline: none;
     border: none;
-    background-color: $black;
+    background-color: $primary-color;
     color: white;
     font-size: 20px;
     transition: 0.3s;
@@ -48,8 +51,7 @@ body {
     }
 
     &.target {
-      background-color: $primary-color;
-      color: white;
+      background-color: $hover-color;
     }
   }
 }
